@@ -1,31 +1,31 @@
 @font-face {
   font-family: 'Avenir Next Cyr Regular';
-  src: url("/fonts/AvenirNextCyr-Regular.eot");
-  src: url("/fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/AvenirNextCyr-Regular.woff") format("woff"), url("/fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  src: url("fonts/AvenirNextCyr-Regular.eot");
+  src: url("fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextCyr-Regular.woff") format("woff"), url("fonts/AvenirNextCyr-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avenir Next Cyr Medium';
-  src: url("/fonts/AvenirNextCyr-Medium.eot");
-  src: url("/fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/AvenirNextCyr-Medium.woff") format("woff"), url("/fonts/AvenirNextCyr-Medium.ttf") format("truetype");
+  src: url("fonts/AvenirNextCyr-Medium.eot");
+  src: url("fonts/AvenirNextCyr-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextCyr-Medium.woff") format("woff"), url("fonts/AvenirNextCyr-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lobster Regular';
-  src: url("/fonts/Lobster.eot");
-  src: url("/fonts/Lobster.eot?#iefix") format("embedded-opentype"), url("/fonts/Lobster.woff") format("woff"), url("/fonts/Lobster.ttf") format("truetype");
+  src: url("fonts/Lobster.eot");
+  src: url("fonts/Lobster.eot?#iefix") format("embedded-opentype"), url("fonts/Lobster.woff") format("woff"), url("fonts/Lobster.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto Bold';
-  src: url("/fonts/Roboto-Bold.eot");
-  src: url("/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Bold.woff") format("woff"), url("/fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("fonts/Roboto-Bold.eot");
+  src: url("fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Roboto-Bold.woff") format("woff"), url("fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -49,12 +49,13 @@ body {
 
 .navbar {
   background: #2ee59c;
+  font-size: 20px;
 }
 
 .navbar-logo {
   margin-left: 15px;
   text-transform: uppercase;
-  font-family: 'Roboto Bold';
+  font-family: 'Roboto Bold',sans-serif;
 }
 
 .navbar-logo__link {
@@ -67,14 +68,14 @@ body {
   padding: 0 60px;
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .navbar-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Avenir Next Cyr Medium';
+  font-family: 'Avenir Next Cyr Medium', sans-serif;
 }
 
 .navbar-menu__item {
@@ -90,6 +91,10 @@ body {
 }
 
 .navbar-menu__link:hover {
+  border-bottom: 2px solid #fafafa;
+}
+
+.active {
   border-bottom: 2px solid #fafafa;
 }
 
@@ -129,12 +134,12 @@ h1 {
   margin-top: 20px;
   margin-bottom: 15px;
   padding: 0 0;
-  font-family: 'Avenir Next Cyr Medium';
+  font-family: 'Avenir Next Cyr Medium',sans-serif;
 }
 
 h2 {
   margin: 10px 0;
-  font-family: 'Avenir Next Cyr Regular';
+  font-family: 'Avenir Next Cyr Regular',sans-serif;
 }
 
 table {
